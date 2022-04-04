@@ -1,5 +1,6 @@
 import './main-page.scss';
 import Header from "./header/header";
+import MainAbout from "./main-about/main-about";
 
 const MainPage = () => {
     const menuItems = [
@@ -11,7 +12,11 @@ const MainPage = () => {
     const pageId = 'main'; //pageId for header text title
 
     return(
-        <Header menuItems={menuItems} pageId={pageId}/> //create header and pass props
+        <>
+            {/*create header and pass props*/}
+            <Header menuItems={menuItems} pageId={pageId}/>
+            <MainAbout/>
+        </>
     )
 
 }
