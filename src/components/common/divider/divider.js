@@ -1,5 +1,5 @@
 import './divider.scss';
-import {dividerImage} from "../../assets/img/imgIndex";
+import {dividerImage} from "../../../assets/img/imgIndex";
 
 const Divider = () => {
     return(

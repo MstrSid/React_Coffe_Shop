@@ -1,5 +1,5 @@
 import "./main-menu.scss";
-import {coffeeMenuLogo} from "../../assets/img/imgIndex";
+import {coffeeMenuLogo} from "../../../assets/img/imgIndex";
 
 /*
 receive menu items names from props and use it when created elements;

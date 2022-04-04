@@ -1,5 +1,5 @@
 import './main-page.scss';
-import Header from "../header/header";
+import Header from "./header/header";
 
 const MainPage = () => {
     const menuItems = [

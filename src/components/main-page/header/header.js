@@ -1,8 +1,8 @@
 import "./header.scss";
-import {headerMainBg, headerOurCoffee, headerForPleasure} from "../../assets/img/imgIndex";
-import MainMenu from "../main-menu/main-menu";
+import {headerMainBg, headerOurCoffee, headerForPleasure} from "../../../assets/img/imgIndex";
+import MainMenu from "../../common/main-menu/main-menu";
 import HeaderTitle from "../header-title/header-title";
-import Divider from "../divider/divider";
+import Divider from "../../common/divider/divider";
 import HeaderText from "../header-text/header-text";
 
 const Header = ({menuItems, pageId}) => {
