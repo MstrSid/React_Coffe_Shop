@@ -35,7 +35,7 @@ const Header = ({menuItems, pageId}) => {
     return (<header className={'header'}>
             <img className={'header-bg'} src={settings.imageBgVariants.toString()} alt="header background"/>
             <div className={'header-content-wrapper'}>
-                <MainMenu menuItems={menuItems}/>
+                <MainMenu menuItems={menuItems} isSecondary={false}/>
                 <HeaderTitle titleText={settings.titleText}/>
                 <Divider/>
                 <HeaderText headerText={headerText}/>

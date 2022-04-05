@@ -2,6 +2,7 @@ import './main-page.scss';
 import Header from "./header/header";
 import MainAbout from "./main-about/main-about";
 import OurBest from "./our-best/our-best";
+import Footer from "../common/footer/footer";
 
 const MainPage = () => {
     const menuItems = [
@@ -18,6 +19,7 @@ const MainPage = () => {
             <Header menuItems={menuItems} pageId={pageId}/>
             <MainAbout/>
             <OurBest/>
+            <Footer menuItems={menuItems}/>
         </>
     )
 
