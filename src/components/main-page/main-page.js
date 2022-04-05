@@ -1,6 +1,7 @@
 import './main-page.scss';
 import Header from "./header/header";
 import MainAbout from "./main-about/main-about";
+import OurBest from "./our-best/our-best";
 
 const MainPage = () => {
     const menuItems = [
@@ -16,6 +17,7 @@ const MainPage = () => {
             {/*create header and pass props*/}
             <Header menuItems={menuItems} pageId={pageId}/>
             <MainAbout/>
+            <OurBest/>
         </>
     )
 

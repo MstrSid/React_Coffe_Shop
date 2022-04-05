@@ -1,0 +1,32 @@
+.card {
+  width: 220px;
+  height: 240px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 21px;
+
+  &-image {
+    width: 150px;
+    height: 130px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &-name {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-top: 14px;
+  }
+
+  &-price {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    color: #000000;
+    margin-top: 10px;
+  }
+}

@@ -3,3 +3,7 @@ export const headerMainBg = require('./header/main-bg.jpg');
 export const headerOurCoffee = require('./header/our-coffee-bg.jpg');
 export const headerForPleasure = require('./header/for-pleasure-bg.jpg');
 export const dividerImage = require('./divider/coffee-beans-divider.png');
+export const ourBestImage = require('./our-best/bg.jpg');
+export const coffeeCard01 = require('./card/01.png');
+export const coffeeCard02 = require('./card/02.png');
+export const coffeeCard03 = require('./card/03.png');
