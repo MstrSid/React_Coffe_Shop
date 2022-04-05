@@ -1,11 +1,11 @@
-import "./header.scss";
+import "./header-main.scss";
 import {headerMainBg, headerOurCoffee, headerForPleasure} from "../../../assets/img/imgIndex";
 import MainMenu from "../../common/main-menu/main-menu";
 import HeaderTitle from "../header-title/header-title";
 import Divider from "../../common/divider/divider";
 import HeaderText from "../header-text/header-text";
 
-const Header = ({menuItems, pageId}) => {
+const HeaderMain = ({menuItems, pageId}) => {
     const options = {
         imageBgVariants: {
             main: headerMainBg, our: headerOurCoffee, pleasure: headerForPleasure,
@@ -32,9 +32,9 @@ const Header = ({menuItems, pageId}) => {
     create main menu and pass menu names link as props;
     create main title and pass title based on settings;
     */
-    return (<header className={'header'}>
-            <img className={'header-bg'} src={settings.imageBgVariants.toString()} alt="header background"/>
-            <div className={'header-content-wrapper'}>
+    return (<header className={'header-main'}>
+            <img className={'header-main-bg'} src={settings.imageBgVariants.toString()} alt="header background"/>
+            <div className={'header-main-content-wrapper'}>
                 <MainMenu menuItems={menuItems} isSecondary={false}/>
                 <HeaderTitle titleText={settings.titleText}/>
                 <Divider/>
@@ -45,4 +45,4 @@ const Header = ({menuItems, pageId}) => {
     )
 }
 
-export default Header;
+export default HeaderMain;

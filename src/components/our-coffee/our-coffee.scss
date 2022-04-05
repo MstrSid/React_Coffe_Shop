@@ -1,0 +1,25 @@
+.our-coffee {
+  &-about {
+    padding-top: 70px;
+  }
+
+  &-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 30px;
+
+    > div {
+      margin-top: 60px;
+    }
+  }
+}
+
+.mini-divider {
+  height: 1px;
+  width: 200px;
+  margin: 60px auto 0;
+  border-top: 1px solid #000000;
+}

@@ -1,5 +1,5 @@
 import './main-page.scss';
-import Header from "./header/header";
+import HeaderMain from "./header-main/header-main";
 import MainAbout from "./main-about/main-about";
 import OurBest from "./our-best/our-best";
 import Footer from "../common/footer/footer";
@@ -11,12 +11,12 @@ const MainPage = () => {
         'For your pleasure'
     ]; //create menu links names
 
-    const pageId = 'main'; //pageId for header text title
+    const pageId = 'main'; //pageId for header-main text title
 
     return(
         <>
-            {/*create header and pass props*/}
-            <Header menuItems={menuItems} pageId={pageId}/>
+            {/*create header-main and pass props*/}
+            <HeaderMain menuItems={menuItems} pageId={pageId}/>
             <MainAbout/>
             <OurBest/>
             <Footer menuItems={menuItems}/>

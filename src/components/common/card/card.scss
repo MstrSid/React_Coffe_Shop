@@ -1,9 +1,11 @@
 .card {
   width: 220px;
-  height: 240px;
+  min-height: 240px;
   background-color: #ffffff;
   border-radius: 10px;
   padding: 21px;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+  cursor: pointer;
 
   &-image {
     width: 150px;
@@ -16,9 +18,10 @@
   &-name {
     font-size: 14px;
     line-height: 20px;
-    text-align: center;
     color: #000000;
     margin-top: 14px;
+    text-align: right;
+    white-space: pre-line;
   }
 
   &-price {

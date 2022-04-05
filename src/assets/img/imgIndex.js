@@ -7,3 +7,4 @@ export const ourBestImage = require('./our-best/bg.jpg');
 export const coffeeCard01 = require('./card/01.png');
 export const coffeeCard02 = require('./card/02.png');
 export const coffeeCard03 = require('./card/03.png');
+export const cardDescr01 = require('./card-descr/01.jpg');

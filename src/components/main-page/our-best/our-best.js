@@ -23,8 +23,8 @@ const OurBest = () => {
 		},
 	]
 
-	const cardItems = cardItemsData.map(item => {
-		return <Card image={item.image} name={item.name} price={item.price}/>
+	const cardItems = cardItemsData.map((item,i) => {
+		return <Card key={i} image={item.image} name={item.name} price={item.price}/>
 	})
 
 	return (

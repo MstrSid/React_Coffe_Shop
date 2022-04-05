@@ -1,0 +1,64 @@
+.search {
+  &-form {
+    width: 80%;
+    margin: 60px auto 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-label, &-filterLabel {
+      display: block;
+      color: #000000;
+      width: max-content;
+    }
+
+    &-label {
+      margin-right: 20px;
+    }
+
+    &-input {
+      margin-right: 83px;
+      height: 100%;
+      background: #FFFFFF;
+      box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+      border-radius: 4px;
+      border: none;
+      font-size: 12px;
+      line-height: 17px;
+      text-align: center;
+      width: 180px;
+    }
+
+    &-filter {
+      &-label {
+        margin-right: 35px;
+      }
+
+      &-btn {
+        transition: all 0.2s ease;
+        width: 75px;
+        height: 100%;
+        margin-right: 5px;
+        font-size: 12px;
+        line-height: 30px;
+        text-align: center;
+        background: #FFFFFF;
+        box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &:hover{
+          background-color: rgba(239, 255, 10, 0.25);
+        }
+
+        &-active {
+         background-color: rgba(239, 255, 10, 0.68);
+        }
+      }
+    }
+  }
+}

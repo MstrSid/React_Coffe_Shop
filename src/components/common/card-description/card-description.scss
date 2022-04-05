@@ -1,0 +1,29 @@
+.card-descr {
+  &-wrapper {
+    width: 700px;
+    height: 355px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+
+  &-content {
+    width: 346px;
+    height: 355px;
+    margin-left: 79px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-text {
+    width: 100%;
+  }
+
+  &-img {
+    height: 355px;
+    object-fit: fill;
+    filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+  }
+}
