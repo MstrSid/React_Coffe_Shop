@@ -8,3 +8,5 @@ export const coffeeCard01 = require('./card/01.png');
 export const coffeeCard02 = require('./card/02.png');
 export const coffeeCard03 = require('./card/03.png');
 export const cardDescr01 = require('./card-descr/01.jpg');
+export const cardDescr02 = require('./card-descr/02.jpg');
+export const cardAboutIt = require('./about-it/01.jpg');

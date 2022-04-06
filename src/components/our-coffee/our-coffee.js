@@ -15,11 +15,6 @@ import {Component} from "react";
 class OurCoffee extends Component {
 	constructor(props) {
 		super(props);
-		this.menuItems = [
-			'Coffee house',
-			'Our coffee',
-			'For your pleasure'
-		]; //create menu links names
 		this.cardData = {
 			image: cardDescr01,
 			title: 'About our beans',
@@ -31,7 +26,6 @@ class OurCoffee extends Component {
 				'met spot shy want. Children me laughing we prospect answered followed. At it went\n' +
 				'is song that held help face.',
 		};
-		this.pageId = 'our'; //pageId for header-main text title
 		this.state = {
 			cardItemsData: [
 				{
@@ -110,6 +104,7 @@ class OurCoffee extends Component {
 	}
 
 	render() {
+		const {menuItems, pageId} = this.props;
 		const {cardItemsData, filterTerm, searchTerm} = this.state;
 
 		const visible = this.filterCoffee(this.searchCoffee(cardItemsData, searchTerm), filterTerm);
@@ -122,8 +117,8 @@ class OurCoffee extends Component {
 		return (
 			<>
 				{/*create header-main and pass props*/}
-				<Header menuItems={this.menuItems}
-						pageId={this.pageId}/>
+				<Header menuItems={menuItems}
+						pageId={pageId}/>
 				<section
 					className={'our-coffee-about'}>
 					<CardDescription
@@ -139,7 +134,7 @@ class OurCoffee extends Component {
 				</section>
 
 				<Footer
-					menuItems={this.menuItems}/>
+					menuItems={menuItems}/>
 			</>
 		)
 	}

@@ -1,0 +1,32 @@
+.card-about {
+  &-wrapper {
+    display: flex;
+    width: 865px;
+    margin: 70px auto 30px;
+  }
+
+  &-img {
+    width: 390px;
+    height: 348px;
+    object-fit: cover;
+    filter: drop-shadow(5px 5px 30px rgba(0, 0, 0, 0.25));
+  }
+
+  &-content {
+    margin-left: 57px;
+  }
+
+  &-country, &-description, &-price {
+    margin-top: 16px;
+    font-size: 14px;
+
+    &-label {
+      font-weight: bold;
+    }
+  }
+
+  &-price-text{
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
